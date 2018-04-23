@@ -36,5 +36,5 @@ Além do arquivo Dockerfile foi adicionado o demo.sql, que são os comandos para
 **Build do Projeto anterior: (para rodar o FRONTEND)**
 > $ docker build . -t frontend:0.0.1
 
-**fazer a comunicação entre o bacjend e o FRONTEND**
+**fazer a comunicação entre o backend e o FRONTEND**
 > $ docker run -d -p 80:80 --name frontend --link backend frontend:0.0.1
