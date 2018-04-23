@@ -1,4 +1,5 @@
-# Sistemas para Internet - SecDevOps
+# Sistemas para Internet - SecDevOps 
+
 
 ***nac:*** Criação de uma aplicação no formato "CRUD" executada em containers com base na linguagem "PHP" e no banco de dados "MySQL";
 
@@ -14,5 +15,5 @@ Esta app foi adaptada do exemplo contido [neste artigo](https://www.tutorialrepu
 
 A estrutura foi criada com base nas seguintes tags:
 
-- frontend-0.1: Versão de testes SEM conexão com o banco para a primeira parte da NAC;
+- frontend-0.0.1: Versão de testes SEM conexão com o banco para a primeira parte da NAC;
 - stable:  Versão COM as linhas de conexão com o banco configuradas, será necessário que o MySQL esteja operante para testes faltando apenas a criação do Dockerfile da aplicação/mysql;
